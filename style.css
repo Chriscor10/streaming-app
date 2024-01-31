@@ -90,6 +90,7 @@ body {
     right: 1px;
     border-radius: 50px;
     cursor: pointer;
+    transition: all 0.5s ease;
   }
 
   .sidebar{
@@ -185,7 +186,7 @@ body {
     height: 200px;
     object-fit: cover;
     transition: all 0.5s ease-in-out;
-    border-radius: 5%;
+    border-radius: 20px;
   }
 
   .movie-list-item-title{
@@ -235,3 +236,33 @@ body {
     color: lightgray;
     opacity: 0.5;
   }
+
+  .container.active{
+    background-color: white;
+  }
+
+.movies-list-title.active{
+    color: black;
+}
+
+.navbar-container.active{
+    background-color: white;
+    color: black;
+}
+
+.sidebar.active{
+    background-color: white;
+}
+
+.left-menu-icon.active{
+    color: black;
+}
+
+.toggle.active{
+    background-color: black;
+}
+
+.toggle-ball.active{
+    background-color: white;
+    transform: translateX(-20px);
+}
